@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<title>Music Player</title>
+</head>
+<body>
+	<!--first row-->
+	<div id="upper-section">
+		<!--image of musicplayer-->
+		<div id="musicplayer_image">
+			<i class="fas fa-music"></i>
+		</div>
+		<!--name of musicplayer-->
+		<div id="musicplayer_name">
+			<span>
+				Free <br> Player
+			</span>
+		</div>
+		<!--favourites div-->
+		<div id="favourites">
+			<h3>Favourites</h3>
+		</div>
+		<!--searhbar div -->
+		<div id="searchbar">
+			<!--search photo-->
+			<i id="search" class="fas fa-search"></i>
+			<!--searchbar-->
+			<input id="search-id" type="text" placeholder="search">
+			<!--mic photo-->
+			<i id="mic" class="fas fa-microphone"></i>
+		</div>
+		<div id="bell">
+			<i class="far fa-bell"></i>
+		</div>
+		<div id="user">
+			<i class="fas fa-user"></i>
+		</div>
+
+	</div>
+    <!-- two-dividers section main and aside -->
+     <div id="second-row">
+   		<main>
+   			<!-- first column which consists of photo-->
+   			<div id="photo">
+   				<img src="media/young.jpg" >
+   				<img src="media/ben.jpg" >
+   				<img src="media/maroon.jpg">
+            </div>
+               <!-- latest releases -->
+               <div id="latest-releases">
+				   <!-- name of the section-->
+               	   <h3 id="heading-latest-releases"> Latest releases</h3>
+               	   <!-- photo of this section-->
+               	       <div class="container">
+               		
+						   <div id="lover">
+
+						   </div>
+						   <div id="pehlidafa">
+
+						   </div>
+						   <div id="madona">
+
+						   </div>
+						   <div id="purpose">
+
+						   </div>
+               	     	
+	                    </div>  
+	            </div>
+	          
+	          <!-- popular artists -->
+	          <div id="popular-artists">
+
+	          	<h3> Popular artists</h3>
+	          	<div class="container">
+	          		<!--all div contains photo of artists with their names-->
+	                    <div class="singer">
+	                    	<a href="#">
+		                    	<img  src="media/arijit.jfif">
+		                    	<div class="text">Arijit Singh</div>
+	                         </a>
+	                    </div>
+	                    <div class="singer">
+	                    	<a href="#">
+		                    	<img src="media/atif.jfif">
+		                    	<div class="text">Atif Aslam</div>
+	                    	</a>
+	                    </div>
+	                    <div class="singer">
+	                    	<a href="#">
+		                    	 <img src="media/armaan.jpg">
+		                    	<div class="text">Armaan Malik</div>
+	                         </a>
+	                    </div>
+	                    <div class="singer">
+	                    	<a href="#">
+		                    	<img src="media/sunidhi.jpg">		                 
+		                    	<div class="text">Sunidhi<br>Chauhan</div>
+	                         </a>
+	                    </div>
+	                    
+	       
+	               </div>
+	          </div>
+	          <!-- genre -->
+	          <div id="genre">
+	          	<h3> Genre</h3>
+	          	<div class="container">
+	          		<!--all div contains photo with their genre-names-->
+	          		<div class="genre-name">
+	          			<a href="#">
+	          				<img src="media/saadahaq.jpg">
+	              			     <div class="text1">Bollywood
+	              			     </div>
+	              		     </a>
+	                    </div>
+	                    <div class="genre-name">
+	               	     <a href="#">
+	               	          <img src="media/butta.jfif">
+	               	          <div class="text1">Tollywood
+	              			     </div>
+	              		     </a>
+	                    </div>
+	                    <div class="genre-name">
+	               	     <a href="#">
+	               		     <img src="media/lover.jpg">
+	               		     <div class="text1">Punjabi
+	              			     </div>
+	                    </div>
+	                    <div class="genre-name">
+	               	     <a href="#">
+	               	          <img src="media/justin.jfif">
+	               	          <div class="text1">Hollywood
+	              		          </div>
+	              	          </a>
+	                    </div>
+	              </div>
+	          </div>
+			  <!-- this is the popular albums section-->
+	          <div id="popular-albums">
+	          	<h3> Popular albums</h3>
+	          	<div class="container">
+	          		<div class="album">
+	          			<a href="#">
+	          				<img src="media/shershaah.webp">
+	              			     <div class="album-name">Shershaah<br><br>Play
+	              			     </div>
+	              		     </a>
+	                    </div>
+	                    <div class="album">
+	               	     <a href="#">
+	               	          <img src="media/shiddat.jpg">
+	               	          <div class="album-name">Shiddat<br><br>Play
+	              			     </div>
+	              		     </a>
+	                    </div>
+	                    <div class="album">
+	               	     <a href="#">
+	               		     <img src="media/pagglait.jpeg">
+	               		     <div class="album-name">Pagglait<br><br>Play
+	              			     </div>
+	              			</a>
+	                    </div>
+	                    <div class="album">
+	               	     <a href="#">
+	               	          <img src="media/bunty.jpg">
+	               	          <div class="album-name">Bunty Aur Babli 2<br><br>Play
+	              		          </div>
+	              	          </a>
+	                    </div>
+	               </div>
+	          </div>
+			  <!-- this is the podcast section-->
+	          <div id="popular-podcast">
+	          	<h3> Podcasts</h3>
+	          	<div class="container">
+	          		<div class="podcast">
+	          			<a href="#">
+	          				<img src="media/cointalk.webp">
+	              			     <div class="podcast-name">Cointalk<br><br>Add to queue<br><i class="fas fa-play"></i>
+	              			     </div>
+	              		     </a>
+	                    </div>
+	                    <div class="podcast">
+	               	     <a href="#">
+	               	          <img src="media/shwetabh.jfif">
+	               	          <div class="podcast-name">Raw And Real<br><br>Add to queue<br><i class="fas fa-play"></i>
+	              			     </div>
+	              		     </a>
+	                    </div>
+	                    <div class="podcast">
+	               	     <a href="#">
+	               		     <img src="media/ventcity.webp">
+	               		     <div class="podcast-name">Vent City<br><br>Add to queue<br><i class="fas fa-play"></i>
+	              			     </div>
+	              			</a>
+	                    </div>
+	                    <div class="podcast">
+	               	     <a href="#">
+	               	          <img src="media/today.webp">
+	               	          <div class="podcast-name">Today Explained<br><br>Add to queue<br><i class="fas fa-play"></i>
+	              		          </div>
+	              	          </a>
+	                    </div>
+
+	          	</div>
+	          </div>
+
+
+
+
+
+	         
+	          
+               	
+	          
+          </main>
+
+     <aside id="side-section">
+     	<h3>Queue
+     	<!-- dropdown menu for choosing-->
+     	<select name="options" id="options">
+     	</h3>
+     		<option value="queue" id="queue" selected>Queue</option>
+               <option value="playlists" id="playlist">Playlists</option>
+               <option value="favourite songs" id="favourite-songs">Favourite Songs</option>
+          </select>
+     
+     	<!--queue songs along with their photo and heart icon -->
+     	<div class="queue-item">
+     		<div id="queue-item-img">
+     		</div>
+     		<div id="queue-title">
+     			<b>Wait</b>
+     			<p> Maroon</p>
+     		</div>
+     		<div id="heart">
+     			<i class="far fa-heart"></i>
+     		</div>
+     	</div>
+	     
+	     <div class="queue-item">
+		     <div id="queue-item-img">
+     		</div>
+		     <div id="queue-title">
+     			<b>Wait</b>
+     			<p> Maroon</p>
+     		</div>
+     		<div id="heart">
+     			<i class="far fa-heart"></i>
+     		</div>	
+	     </div>  
+	     <div class="queue-item">
+	     	<div id="queue-item-img">
+     		</div>
+	     	<div id="queue-title">
+     			<b>Wait</b>
+     			<p> Maroon</p>
+     		</div>
+     		<div id="heart">
+     			<i class="far fa-heart"></i>
+     		</div>     
+	     </div>
+	     <div class="queue-item">
+	     	<div id="queue-item-img">
+     		</div>
+	     	<div id="queue-title">
+     			<b>Wait</b>
+     			<p> Maroon</p>
+     		</div>
+     		<div id="heart">
+     			<i class="far fa-heart"></i>
+     		</div>
+	     </div>
+	     <div class="queue-item">
+	     	<div id="queue-item-img">
+     		</div>
+	     	<div id="queue-title">
+     			<b>Wait</b>
+     			<p> Maroon</p>
+     		</div>
+     		<div id="heart">
+     			<i class="far fa-heart"></i>
+     		</div>
+	     </div>
+	     <div class="queue-item">
+	     	<div id="queue-item-img">
+     		</div>
+	     	<div id="queue-title">
+     			<b>Wait</b>
+     			<p> Maroon</p>
+     		</div>
+     		<div id="heart">
+     			<i class="far fa-heart"></i>
+     		</div>
+	     </div>
+	     <div class="queue-item">
+	     	<div id="queue-item-img">
+     		</div>
+	     	<div id="queue-title">
+     			<b>Wait</b>
+     			<p> Maroon</p>
+     		</div>
+     		<div id="heart">
+     			<i class="far fa-heart"></i>
+     		</div>
+	     </div>
+	     <div class="queue-item">
+	     	<div id="queue-item-img">
+     		</div>
+	     	<div id="queue-title">
+     			<b>Wait</b>
+     			<p> Maroon</p>
+     		</div>
+     		<div id="heart">
+     			<i class="far fa-heart"></i>
+     		</div>
+	     </div>
+	 
+
+     </aside>
+	 </div>
+     <!-- music player with buttons-->
+     <footer>
+		<div id="music-bar">
+			<!--Music Icon-->
+			<div id="music-icon">
+				 <img src="media/latest-release-2.png" alt="music-icon">
+			</div>
+			<!--End of music icon-->
+			<!--Music title-->
+			<div id="music-title">
+				<b>evermore (feat. Bon Iver)</b>
+				<div id="favourite">
+				   <i class="far fa-heart"></i>
+				</div>
+				<div id="remove">
+					<i class="fas fa-ban"></i>
+				</div>
+				<br/>
+				<artist>Taylor Swift</artist>
+			</div>
+			<!--End of music title-->
+			<!--Play buttons-->
+			<div id="play-buttons">
+				<i class="fas fa-random"></i>
+				<i class="fas fa-backward"></i>
+				<i class="fas fa-pause-circle"></i>
+				<i class="fas fa-forward"></i>
+				<i class="fas fa-undo-alt"></i>
+			</div>
+			<!--End of play buttons-->
+			<!--Music start time-->
+			<div id="start-time">
+				0:00
+			</div>
+			<!--End of music start time-->
+			<!--Music end time-->
+			<div id="end-time">
+				5:04
+			</div>
+			<!--End of music end time-->
+			<!--Begining of the progress bar-->
+			<div id="progress-bar">
+				 <div id="circle">
+					 <i class="fas fa-circle"></i>
+				</div>
+			</div>
+			<!--End of progress bar-->
+			<!--Miscellaneous icons-->
+			<div id="queue">
+				<i class="fas fa-bars"></i>
+			</div>
+			<div id="volume">
+				<i class="fas fa-volume-up"></i>
+			</div>
+			<div id="progress-bar-volume">
+				<div id="circle-volume">
+				  <i class="fas fa-circle"></i>
+				</div>
+			</div>
+			<!--End of miscellaneous icons-->
+		</div>
+	</footer>
+      
+
+</body>
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="playlist.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<title>Single Playlist Screen</title>
+</head>
+
+<body>
+	<!-- first row containing searchbar -->
+	<!--first row-->
+	<div id="upper-section">
+		<!--image of musicplayer-->
+		<div id="musicplayer_image">
+			<i class="fas fa-music"></i>
+		</div>
+		<!--name of musicplayer-->
+		<div id="musicplayer_name">
+			<span>
+				Free <br> Player
+			</span>
+		</div>
+		<!--favourites div-->
+		<div id="favourites">
+			<h3>Favourites</h3>
+		</div>
+		<!--searhbar div -->
+		<div id="searchbar">
+			<!--search photo-->
+			<i id="search" class="fas fa-search"></i>
+			<!--searchbar-->
+			<input id="search-id" type="text" placeholder="search">
+			<!--mic photo-->
+			<i id="mic" class="fas fa-microphone"></i>
+		</div>
+		<div id="bell">
+			<i class="far fa-bell"></i>
+		</div>
+		<div id="user">
+			<i class="fas fa-user"></i>
+		</div>
+
+	</div>
+	<!--two-dividers main and aside sections-->
+	<div id="second-row">
+		<main>
+			<div id="artist-template">
+				<div id="artist-image">
+				</div>
+				<!--Artist Details -->
+				<div id="artist-details">
+					<!--Artist Title-->
+					<div id="artist-title">
+						<div>
+							<b>Tove Styrke</b>
+							<br />
+							<div id="artist-type">Pop Artist</div>
+						</div>
+						<div id="followers">96.7k followers</div>
+					</div>
+					<!--End of Artist Title-->
+					<!--Artist Intro-->
+					<div id="artist-intro">
+						Swedish pop star Tove Styrke is during fall ‘20 part of successful music TV-show ”Så Mycket
+						Bättre” where she is doing some covers of other Swedish artists. She is now also working hard in
+						the studio preparing for releasing her first new original music in a few years during first part
+						of ‘21.
+					</div>
+					<!--End of Artist Intro-->
+					<!--Miscellaneous Buttons-->
+					<div id="artist-buttons">
+						<div id="playall-button">
+							Play All
+						</div>
+						<div id="follow-button">
+							Follow
+						</div>
+					</div>
+					<div id="tracks">
+						247 Tracks | 128 Albums
+					</div>
+					<!--End of miscellaeous buttons-->
+				</div>
+				<!--End of artist details-->
+			</div>
+			<!--End of artist template-->
+
+			<!-- start of song section-->
+			<!-- this container number,song-name,song-photo,heart icon-->
+			<div id="songs">
+				<div id="humnava">
+					<!-- this is the numbering-->
+					<div class="number">
+						1
+					</div>
+					<div class="humnava-image">
+						<img src="media/humnava.jpg" width=70px height=50px>
+					</div>
+					<h4 id="song-name">
+						Humnava
+						<div id="singer-name">Jubin Nutiyal</div>
+					</h4>
+					<div class="heart">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<br>
+				<div id="yahin">
+					<span class="number">2</span>
+					<img src="media/yahin.jfif" width=70px height=50px>
+					<h4 id="song-name">
+						Yahin Hoon Main
+						<div id="singer-name">Ayushmann</div>
+					</h4>
+					<span class="heart">
+						<i class="far fa-heart"></i>
+					</span>
+				</div>
+				<br>
+				<div id="safar">
+					<span class="number">3</span>
+					<img src="media/safar.jpg" width=70px height=50px>
+					<h4 id="song-name">
+						Safar
+						<div id="singer-name">Arijit Singh</div>
+					</h4>
+					<span class="heart">
+						<i class="far fa-heart"></i>
+					</span>
+				</div>
+				<br>
+				<div id="ranjha">
+					<span class="number">4</span>
+					<img src="media/ranjha.jpg" width=70px height=50px>
+					<h4 id="song-name">
+						Ranjhanaa
+						<div id="singer-name">Jasvinder Singh</div>
+					</h4>
+					<span class="heart">
+						<i class="far fa-heart"></i>
+					</span>
+				</div>
+
+
+
+			</div>
+		</main>
+		<aside>
+			<!-- this is Similaar Artists section-->
+			<div id="playlists-section">
+				<div class="playlist-header">
+					<p class="section-name">Similar Artists <span class="viewall">View All </span></p>
+				</div>
+				<div class="aside-container">
+					<img src="media/wait.jpg" width="65px" height="70px">
+					<div id="song-title">
+						<b class="song-name">Wait <p id="singer-name1"> Maroon 5</p>
+						</b>
+					</div>
+					<div class="heart">
+						<i class="far fa-heart"></i>
+					</div>
+
+				</div>
+				<div class="aside-container">
+					<img src="media/roar.jpg" width="65px" height="70px">
+					<div id="song-title">
+						<b class="song-name">Roar <p id="singer-name2">Kate Perry</p>
+						</b>
+					</div>
+					<div class="heart">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="aside-container">
+					<img src="media/toosie slide.jpg" width="65px" height="70px">
+					<div id="song-title">
+						<b class="song-name">Toosie Slide <p id="singer-name3">Drake</p>
+						</b>
+					</div>
+					<div class="heart">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+			<!-- these are recently played songs-->
+			<div id="recently-played">
+				<div class="playlist-header">
+					<p class="section-name">
+						Recently Played
+						<span class="viewall">View All </span>
+					</p>
+				</div>
+				<div class="aside-container">
+
+					<img src="media/wait.jpg" width="65px" height="70px">
+					<div id="song-title">
+						<div class="song-name">Wait <div id="singer-name1"> Maroon 5</div>
+						</div>
+					</div>
+					<div class="heart">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+				<div class="aside-container">
+					<img src="media/roar.jpg" width="65px" height="70px">
+					<div id="song-title">
+						<div class="song-name">Roar
+							<div id="singer-name2">Kate Perry</div>
+						</div>
+					</div>
+					<div class="heart">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="aside-container">
+					<img src="media/toosie slide.jpg" width="65px" height="70px">
+					<div id="song-title">
+					<div class="song-name">Toosie Slide <div id="singer-name3">Drake</div>
+					</div>
+				</div>
+					<div class="heart">
+						<i class="far fa-heart"></i>
+					</div>
+
+				</div>
+				<div class="aside-container">
+					<img src="media/toosie slide.jpg" width="65px" height="70px">
+					<div id="song-title">
+					<div class="song-name">Toosie Slide <div id="singer-name3">Drake</div>
+				</div>
+					</div>
+					<div class="heart">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="aside-container">
+					<img src="media/toosie slide.jpg" width="65px" height="70px">
+					<div id="song-title">
+					<div class="song-name">Toosie Slide <div id="singer-name3">Drake</div>
+				</div>
+					</div>
+					<div class="heart">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="aside-container">
+					<img src="media/toosie slide.jpg" width="65px" height="70px">
+					<div id="song-title">
+					<div class="song-name">Toosie Slide <div id="singer-name3">Drake</div>
+					</div>
+				</div>
+					<div class="heart">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="aside-container">
+					<img src="media/toosie slide.jpg" width="65px" height="70px">
+					<div id="song-title">
+					<div class="song-name">Toosie Slide <div id="singer-name3">Drake</div>
+					</div>
+				</div>
+				<div class="heart">
+					<i class="far fa-heart"></i>
+				</div>
+				</div>
+			</div>
+		</aside>
+		
+		<footer>
+		<div id="music-bar">
+			<!--Music Icon-->
+			<div id="music-icon">
+				 <img src="media/latest-release-2.png" alt="music-icon">
+			</div>
+			<!--End of music icon-->
+			<!--Music title-->
+			<div id="music-title">
+				<b>evermore (feat. Bon Iver)</b>
+				<div id="favourite">
+				   <i class="far fa-heart"></i>
+				</div>
+				<div id="remove">
+					<i class="fas fa-ban"></i>
+				</div>
+				<br/>
+				<artist>Taylor Swift</artist>
+			</div>
+			<!--End of music title-->
+			<!--Play buttons-->
+			<div id="play-buttons">
+				<i class="fas fa-random"></i>
+				<i class="fas fa-backward"></i>
+				<i class="fas fa-pause-circle"></i>
+				<i class="fas fa-forward"></i>
+				<i class="fas fa-undo-alt"></i>
+			</div>
+			<!--End of play buttons-->
+			<!--Music start time-->
+			<div id="start-time">
+				0:00
+			</div>
+			<!--End of music start time-->
+			<!--Music end time-->
+			<div id="end-time">
+				5:04
+			</div>
+			<!--End of music end time-->
+			<!--Begining of the progress bar-->
+			<div id="progress-bar">
+				 <div id="circle">
+					 <i class="fas fa-circle"></i>
+				</div>
+			</div>
+			<!--End of progress bar-->
+			<!--Miscellaneous icons-->
+			<div id="queue">
+				<i class="fas fa-bars"></i>
+			</div>
+			<div id="volume">
+				<i class="fas fa-volume-up"></i>
+			</div>
+			<div id="progress-bar-volume">
+				<div id="circle-volume">
+				  <i class="fas fa-circle"></i>
+				</div>
+			</div>
+			<!--End of miscellaneous icons-->
+		</div>
+	</footer>
+
+
+</body>
+
+</html>
